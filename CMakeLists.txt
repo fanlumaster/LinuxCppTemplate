@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 3.25.0)
+cmake_minimum_required(VERSION 3.27.0)
 project(LinuxCppTemplate VERSION 1.0)
 
 # specify the C++ standard
