@@ -9,4 +9,4 @@ set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/bin)
 
 include_directories("./includes/")
 
-add_executable(smallcase "./src/han_size.cpp")
+add_executable(smallcase "./src/measure_running_time.cpp")
