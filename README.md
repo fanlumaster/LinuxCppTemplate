@@ -21,6 +21,8 @@ Besides, after cloning this repo to your local device, you need to execute an ad
 chmod +x *.sh
 ```
 
+Moreover, if you use VSCode, do not forget to change "program" name in .vscode/launch.jsonc to your own binary program name.
+
 Then, have fun writting C++ in Linux.
 
 
