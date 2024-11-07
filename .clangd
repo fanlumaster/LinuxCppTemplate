@@ -1,7 +1,7 @@
 CompileFlags:
   Add: [
     "-std=c++17",
-    "-I/home/sonnycalcr/EDisk/CppCodes/CppUsageCases/small-cases/includes", # you should replace this to your own include path of this project
+    "-I/home/sonnycalcr/EDisk/TemplateCodes/LinuxCppTemplate/includes", # you should replace this to your own include path of this project
     # -Wno-unused-value,
   ] # ignore some specific warnings
   CompilationDatabase: build/       # Search build/ directory for compile_commands.json

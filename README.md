@@ -1,6 +1,6 @@
 # About
 
-This is a template for C++ in Windows.
+This is a template for C++ in Arch Linux.
 
 I use the tool chains below:
 
@@ -12,7 +12,7 @@ I use the tool chains below:
 Notice that, you should replace the line in the `.clangd` file below to your own include path of this project,
 
 ```
-"-I/home/sonnycalcr/EDisk/Templates/LinuxCppTemplate/includes", # you should replace this to your own include path of this project
+"-I/home/sonnycalcr/EDisk/TemplateCodes/LinuxCppTemplate/includes", # you should replace this to your own include path of this project
 ```
 
 Besides, after cloning this repo to your local device, you need to execute an additional command,
