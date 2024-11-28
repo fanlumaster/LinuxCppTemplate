@@ -16,10 +16,7 @@ if [ ! -d "$buildFolderPath" ]; then
   echo "build folder created."
 fi
 
-# cmake -G "Unix Makefiles" -DCMAKE_SYSTEM_PROCESSOR=x86_64 -S . -B ./build/
-cmake -G "Unix Makefiles" -D CMAKE_C_COMPILER=/usr/bin/gcc -D CMAKE_CXX_COMPILER=/usr/bin/g++ -S . -B ./build/
-# cmake -G "Unix Makefiles" -DCMAKE_CXX_COMPILER=/usr/bin/clang++ -S . -B ./build/
-# CC=/usr/bin/clang CXX=/usr/bin/clang++ cmake -G "Unix Makefiles" -S . -B ./build/
+cmake -G "Unix Makefiles" -D CMAKE_CXX_COMPILER=/usr/bin/g++ -S . -B ./build/
 
 if [ $? -eq 0 ]; then
   cmake --build ./build/ --config DEBUG
