@@ -27,8 +27,8 @@ if [ $? -eq 0 ]; then
     content=$(<"./CMakeLists.txt")
     exePath=""
     while IFS= read -r line; do
-      if [[ $line == "add_executable"* ]]; then
-        pattern="\((.*?)\)"
+      if [[ $line == "set(MY_EXECUTABLE_NAME"* ]]; then
+        pattern="\"([^\"]+)\""
         if [[ $line =~ $pattern ]]; then
           contentInParentheses="${BASH_REMATCH[1]}"
           result=($contentInParentheses)

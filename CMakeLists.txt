@@ -9,4 +9,9 @@ set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/bin)
 
 include_directories("./includes/")
 
-add_executable(linuxcppdemo "./src/main.cpp")
+set(MY_EXECUTABLE_NAME "linuxcppdemo")
+
+add_executable(
+  ${MY_EXECUTABLE_NAME}
+  "./src/main.cpp"
+)
